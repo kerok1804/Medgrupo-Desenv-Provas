@@ -1,0 +1,94 @@
+.container {
+  width: 30%; 
+  position: relative; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 491px;
+  }
+
+  label {display:block;}
+  input {width: 100%;}
+  input,  button {padding: 15px;}
+
+
+button {
+    position: absolute;   
+    top: -4px; 
+    left: 0;
+  }
+
+input {padding-left: 60px;}
+ 
+svg{
+    display: inline-block;
+    font-size: inherit;
+    height: 1.5em;
+    overflow: visible;
+  }
+
+
+body{
+    background-color: black;
+}
+
+#cabecalho{
+  background-color:  #cccccc;
+  width: 600px;
+  padding: 40px 2%;
+  color: white;
+  text-align: center;
+  margin: 100px 0px 0px 417px;
+
+}
+#cabecalho2{
+  width: 600px;
+  padding: 10px 2%;
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  margin: 34px 0px 0px 415px;
+}
+
+#progresso, #progresso div{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ 
+}
+
+#progresso div{
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  z-index: 1;
+  margin: -305px 0px 44px 946px;
+  
+}
+
+#progresso span{
+  display: inline-block;
+  width: 2px;
+  height: 50%;
+  background: red;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
+  transform-origin: bottom;
+  display: none;
+}
+
+#next{
+  margin: 218px 0px 0px 0px;
+  left: 950px;
+}
+
+
